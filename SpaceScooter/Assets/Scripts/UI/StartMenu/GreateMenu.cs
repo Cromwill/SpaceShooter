@@ -13,7 +13,6 @@ public class GreateMenu : MonoBehaviour, IMenu
     {
         _index++;
         SetIndex();
-
     }
 
     public void GetPreviousElement()

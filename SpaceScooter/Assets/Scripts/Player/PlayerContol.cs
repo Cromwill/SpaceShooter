@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerContol : MonoBehaviour
 {
-    private Player _player;
+    private PlayerAvatar _player;
 
 	void Start ()
     {
-        _player = GetComponent<Player>();
+        _player = GetComponent<PlayerAvatar>();
 
         foreach(var v in Input.GetJoystickNames())
         {
